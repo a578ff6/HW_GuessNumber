@@ -13,6 +13,14 @@
 		93D3747F2A5D264600EBCF1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D3747D2A5D264600EBCF1D /* Main.storyboard */; };
 		93D374812A5D264700EBCF1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93D374802A5D264700EBCF1D /* Assets.xcassets */; };
 		93D374842A5D264700EBCF1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93D374822A5D264700EBCF1D /* LaunchScreen.storyboard */; };
+		93D3748C2A5D5C4200EBCF1D /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3748B2A5D5C4200EBCF1D /* Game.swift */; };
+		93D3748E2A5D608000EBCF1D /* GuessResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93D3748D2A5D608000EBCF1D /* GuessResult.swift */; };
+		93D374902A5FD62000EBCF1D /* beepbeep.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93D3748F2A5FD62000EBCF1D /* beepbeep.mp3 */; };
+		93D374922A5FD70100EBCF1D /* clickSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93D374912A5FD70100EBCF1D /* clickSound.mp3 */; };
+		93D374942A5FD7E800EBCF1D /* functionButton.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93D374932A5FD7E800EBCF1D /* functionButton.mp3 */; };
+		93D374962A5FDE0500EBCF1D /* clearButtonSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93D374952A5FDE0500EBCF1D /* clearButtonSound.mp3 */; };
+		93D374982A5FDFD200EBCF1D /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93D374972A5FDFD200EBCF1D /* explosion.mp3 */; };
+		93D3749A2A6000D000EBCF1D /* winSound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93D374992A6000D000EBCF1D /* winSound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		93D374802A5D264700EBCF1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		93D374832A5D264700EBCF1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		93D374852A5D264700EBCF1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93D3748B2A5D5C4200EBCF1D /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		93D3748D2A5D608000EBCF1D /* GuessResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuessResult.swift; sourceTree = "<group>"; };
+		93D3748F2A5FD62000EBCF1D /* beepbeep.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beepbeep.mp3; sourceTree = "<group>"; };
+		93D374912A5FD70100EBCF1D /* clickSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clickSound.mp3; sourceTree = "<group>"; };
+		93D374932A5FD7E800EBCF1D /* functionButton.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = functionButton.mp3; sourceTree = "<group>"; };
+		93D374952A5FDE0500EBCF1D /* clearButtonSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = clearButtonSound.mp3; sourceTree = "<group>"; };
+		93D374972A5FDFD200EBCF1D /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
+		93D374992A6000D000EBCF1D /* winSound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winSound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,9 +76,17 @@
 				93D374792A5D264600EBCF1D /* SceneDelegate.swift */,
 				93D3747B2A5D264600EBCF1D /* ViewController.swift */,
 				93D3747D2A5D264600EBCF1D /* Main.storyboard */,
+				93D3748B2A5D5C4200EBCF1D /* Game.swift */,
+				93D3748D2A5D608000EBCF1D /* GuessResult.swift */,
 				93D374802A5D264700EBCF1D /* Assets.xcassets */,
 				93D374822A5D264700EBCF1D /* LaunchScreen.storyboard */,
 				93D374852A5D264700EBCF1D /* Info.plist */,
+				93D3748F2A5FD62000EBCF1D /* beepbeep.mp3 */,
+				93D374912A5FD70100EBCF1D /* clickSound.mp3 */,
+				93D374932A5FD7E800EBCF1D /* functionButton.mp3 */,
+				93D374952A5FDE0500EBCF1D /* clearButtonSound.mp3 */,
+				93D374972A5FDFD200EBCF1D /* explosion.mp3 */,
+				93D374992A6000D000EBCF1D /* winSound.mp3 */,
 			);
 			path = HW_GuessNumber;
 			sourceTree = "<group>";
@@ -125,9 +149,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93D3749A2A6000D000EBCF1D /* winSound.mp3 in Resources */,
+				93D374942A5FD7E800EBCF1D /* functionButton.mp3 in Resources */,
 				93D374842A5D264700EBCF1D /* LaunchScreen.storyboard in Resources */,
 				93D374812A5D264700EBCF1D /* Assets.xcassets in Resources */,
 				93D3747F2A5D264600EBCF1D /* Main.storyboard in Resources */,
+				93D374962A5FDE0500EBCF1D /* clearButtonSound.mp3 in Resources */,
+				93D374982A5FDFD200EBCF1D /* explosion.mp3 in Resources */,
+				93D374922A5FD70100EBCF1D /* clickSound.mp3 in Resources */,
+				93D374902A5FD62000EBCF1D /* beepbeep.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +171,8 @@
 				93D3747C2A5D264600EBCF1D /* ViewController.swift in Sources */,
 				93D374782A5D264600EBCF1D /* AppDelegate.swift in Sources */,
 				93D3747A2A5D264600EBCF1D /* SceneDelegate.swift in Sources */,
+				93D3748E2A5D608000EBCF1D /* GuessResult.swift in Sources */,
+				93D3748C2A5D5C4200EBCF1D /* Game.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,6 +322,7 @@
 				DEVELOPMENT_TEAM = P8FCS2FB8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW_GuessNumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NumberBomb;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +351,7 @@
 				DEVELOPMENT_TEAM = P8FCS2FB8Z;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = HW_GuessNumber/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NumberBomb;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
